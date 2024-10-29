@@ -25,13 +25,10 @@ header {
     overflow: auto;
 
     .logo {
+        width: 50%;
         float: left;
 
         font-weight: bold;
-    }
-
-    nav {
-        float: right;
     }
 }
 

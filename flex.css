@@ -26,7 +26,11 @@ header {
     padding: 1rem;
     
     .logo {
+        flex-basis: 50%;
         font-weight: bold;
+    }
+    nav {
+        flex-basis: 50%;
     }
 }
 
@@ -55,7 +59,6 @@ main > *{
     justify-content: space-between;
     
     .box {
-        text-align: center;
         flex-basis: calc(100% / 3 - 1rem);
         height: 4rem;
         font-weight: bold;
