@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -11,12 +12,20 @@ body {
 }
 
 
-.logo, header, aside, footer, .content  {
+header, .header-banner, aside, footer, .content  {
     box-sizing: border-box;
     background-color: white;
     font-weight: bold;
     padding: 1rem;
-    border: 1px solid black;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}
+
+.logo {
+    columns: span 1;
 }
 
 main {

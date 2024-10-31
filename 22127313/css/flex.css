@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -11,12 +12,16 @@ body {
 }
 
 
-.logo, header, aside, footer, .content  {
+header, .header-banner, aside, footer, .content  {
     box-sizing: border-box;
     background-color: white;
     font-weight: bold;
     padding: 1rem;
-    border: 1px solid black;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
 }
 
 main {
@@ -37,7 +42,7 @@ aside {
     background-color: lightgray;
 }
 
-header {
+.header-banner {
     min-height: calc(400px - 300px - 1rem);
 }
 

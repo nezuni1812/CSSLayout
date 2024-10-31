@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -10,17 +11,23 @@ body {
     text-align: center;
 }
 
-
-.logo, header, aside, footer, .content  {
+header, .header-banner, aside, footer, .content  {
     box-sizing: border-box;
     background-color: white;
     font-weight: bold;
     padding: 1rem;
-    border: 1px solid black;
 }
 
 main {
     margin: 1rem 0;
+}
+
+header {
+    min-height: 50px;
+}
+
+.logo {
+    float: left;
 }
 
 .content {
@@ -40,7 +47,7 @@ article {
     width: calc(100% - 30% - 1rem)
 }
 
-header {
+.header-banner {
     min-height: calc(400px - 300px - 1rem);
 }
 
